@@ -1,0 +1,118 @@
+$date
+	Tue Mar 25 18:41:43 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module regbank_v1_tb $end
+$var wire 32 ! rdData2 [31:0] $end
+$var wire 32 " rdData1 [31:0] $end
+$var reg 1 # clk $end
+$var reg 5 $ dr [4:0] $end
+$var reg 1 % rst $end
+$var reg 5 & sr1 [4:0] $end
+$var reg 5 ' sr2 [4:0] $end
+$var reg 32 ( wrData [31:0] $end
+$scope module regbank_instance1 $end
+$var wire 1 # clk $end
+$var wire 5 ) dr [4:0] $end
+$var wire 32 * rdData1 [31:0] $end
+$var wire 32 + rdData2 [31:0] $end
+$var wire 1 % rst $end
+$var wire 5 , sr1 [4:0] $end
+$var wire 5 - sr2 [4:0] $end
+$var wire 32 . wrData [31:0] $end
+$var integer 32 / k [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+1%
+bx $
+0#
+bx "
+bx !
+$end
+#5
+b100000 /
+1#
+#10
+0#
+#11
+0%
+#12
+b1001 $
+b1001 )
+b1010 (
+b1010 .
+#14
+b0 "
+b0 *
+b1001 &
+b1001 ,
+#15
+b1010 "
+b1010 *
+1#
+#17
+b1000 $
+b1000 )
+b10011 (
+b10011 .
+#19
+b0 !
+b0 +
+b1000 '
+b1000 -
+b0 "
+b0 *
+b0 &
+b0 ,
+#20
+0#
+#22
+b110 $
+b110 )
+b1011 (
+b1011 .
+#25
+1#
+#27
+b10100 (
+b10100 .
+#29
+b1011 !
+b1011 +
+b110 '
+b110 -
+b1000 &
+b1000 ,
+#30
+0#
+#35
+b10100 !
+b10100 +
+1#
+#40
+0#
+#45
+1#
+#50
+0#
