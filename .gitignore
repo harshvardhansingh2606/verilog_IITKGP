@@ -1,8 +1,8 @@
 mips32/test
 mips32_tb/test1
 mips32_tb/mips_tb1.vcd
-./31_lec/1_regbank_out
-./31_lec/1_regbank_out_tb
-./31_lec/reg.vcd
-./33_lec/dumping.vcd
-./33_lec/test
+31_lec/1_regbank_out
+31_lec/1_regbank_out_tb
+31_lec/reg.vcd
+33_lec/dumping.vcd
+33_lec/test
