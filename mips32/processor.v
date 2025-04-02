@@ -62,7 +62,7 @@ module pipe_MIPS32 (clk1, clk2);
 
             ID_EX_NPC <= IF_ID_NPC;
             ID_EX_IR <= IF_ID_IR;
-            ID_EX_Imm <= {{16{IF_ID_IR[15:0]}},{IF_ID_IR[15:0]}};             //sign extension on the immidiate data
+            ID_EX_Imm <= {{16{IF_ID_IR[15]}},{IF_ID_IR[15:0]}};             //sign extension on the immidiate data
 
             case (IF_ID_IR[31:26])                                            //on the basis of the opcode we are deciding the type
 
