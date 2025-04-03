@@ -8,3 +8,5 @@ mips32_tb/mips_tb1.vcd
 33_lec/test
 mips32_tb/test2
 mips32_tb/mips_tb2.vcd
+mips32_tb/test3
+mips32_tb/mips_tb3.vcd
