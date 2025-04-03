@@ -30,7 +30,7 @@ module pipe_MIPS32 (clk1, clk2);
     always @(posedge clk1) begin
         if (HALTED==0) begin                                                  //here we are only proceeding if the halted==0
             if (((EX_MEM_IR[31:26]==BEQZ) && (EX_MEM_cond==1)) ||             //here EX_MEM_cond = (A==0) of 1 if A=0 and 0 if A!=0
-                ((EX_MEM_IR[31:26==BNEQZ]) && (EX_MEM_cond==0)) ) begin
+                ((EX_MEM_IR[31:26]==BNEQZ) && (EX_MEM_cond==0)) ) begin
 
                 IF_ID_IR <= Mem[EX_MEM_ALUOut];
                 TAKEN_BRANCH <= 1'b1;
